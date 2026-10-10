@@ -1,0 +1,22 @@
+============= Training Log =============
+Time: 20261009_084948
+Dataset: Caltech5V
+Missing rate: 0.5
+Times: 1
+Seed: 45
+Epochs: 300
+Pretrain epochs: 100
+========================================
+
+Training log saved to: D:\Data_Mining\Code\Experiment\MORTIS\logs\Caltech5V_mr0.5_times1_seed45_20261009_084948.log
+DataName: Caltech5V
+View: 5, dims of data: [40, 254, 1984, 512, 928], data size: 1400, class num: 7
+NVIDIA GeForce GTX 1650
+Tringing Scenario: IN
+Training...
+============= Pretraining ==============
+[Pretrain Epoch 1 | 100] Phase: AE, Loss:  0.193288, Loss_rec:  0.193288
+[Pretrain Epoch 2 | 100] Phase: AE, Loss:  0.187031, Loss_rec:  0.187031
+[Pretrain Epoch 3 | 100] Phase: AE, Loss:  0.181142, Loss_rec:  0.181142
+[Pretrain Epoch 4 | 100] Phase: AE, Loss:  0.172547, Loss_rec:  0.172547
+[Pretrain Epoch 5 | 100] Phase: AE, Loss:  0.160197, Loss_rec:  0.160197

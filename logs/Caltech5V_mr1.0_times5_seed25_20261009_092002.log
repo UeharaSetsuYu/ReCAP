@@ -1,0 +1,420 @@
+============= Training Log =============
+Time: 20261009_092002
+Dataset: Caltech5V
+Missing rate: 1.0
+Times: 5
+Seed: 25
+Epochs: 300
+Pretrain epochs: 100
+========================================
+
+Training log saved to: D:\Data_Mining\Code\Experiment\MORTIS\logs\Caltech5V_mr1.0_times5_seed25_20261009_092002.log
+DataName: Caltech5V
+View: 5, dims of data: [40, 254, 1984, 512, 928], data size: 1400, class num: 7
+NVIDIA GeForce GTX 1650
+Tringing Scenario: IN
+Training...
+============= Pretraining ==============
+[Pretrain Epoch 1 | 100] Phase: AE, Loss:  0.236479, Loss_rec:  0.236479
+[Pretrain Epoch 2 | 100] Phase: AE, Loss:  0.229742, Loss_rec:  0.229742
+[Pretrain Epoch 3 | 100] Phase: AE, Loss:  0.221884, Loss_rec:  0.221884
+[Pretrain Epoch 4 | 100] Phase: AE, Loss:  0.212821, Loss_rec:  0.212821
+[Pretrain Epoch 5 | 100] Phase: AE, Loss:  0.202383, Loss_rec:  0.202383
+[Pretrain Epoch 6 | 100] Phase: AE, Loss:  0.187941, Loss_rec:  0.187941
+[Pretrain Epoch 7 | 100] Phase: AE, Loss:  0.172812, Loss_rec:  0.172812
+[Pretrain Epoch 8 | 100] Phase: AE, Loss:  0.157200, Loss_rec:  0.157200
+[Pretrain Epoch 9 | 100] Phase: AE, Loss:  0.142198, Loss_rec:  0.142198
+[Pretrain Epoch 10 | 100] Phase: AE, Loss:  0.132508, Loss_rec:  0.132508
+[Pretrain Epoch 11 | 100] Phase: AE, Loss:  0.128047, Loss_rec:  0.128047
+[Pretrain Epoch 12 | 100] Phase: AE, Loss:  0.126255, Loss_rec:  0.126255
+[Pretrain Epoch 13 | 100] Phase: AE, Loss:  0.124557, Loss_rec:  0.124557
+[Pretrain Epoch 14 | 100] Phase: AE, Loss:  0.118763, Loss_rec:  0.118763
+[Pretrain Epoch 15 | 100] Phase: AE, Loss:  0.113280, Loss_rec:  0.113280
+[Pretrain Epoch 16 | 100] Phase: AE, Loss:  0.107630, Loss_rec:  0.107630
+[Pretrain Epoch 17 | 100] Phase: AE, Loss:  0.104908, Loss_rec:  0.104908
+[Pretrain Epoch 18 | 100] Phase: AE, Loss:  0.103288, Loss_rec:  0.103288
+[Pretrain Epoch 19 | 100] Phase: AE, Loss:  0.102420, Loss_rec:  0.102420
+[Pretrain Epoch 20 | 100] Phase: AE, Loss:  0.103190, Loss_rec:  0.103190
+[Pretrain Epoch 21 | 100] Phase: AE, Loss:  0.102084, Loss_rec:  0.102084
+[Pretrain Epoch 22 | 100] Phase: AE, Loss:  0.101870, Loss_rec:  0.101870
+[Pretrain Epoch 23 | 100] Phase: AE, Loss:  0.101193, Loss_rec:  0.101193
+[Pretrain Epoch 24 | 100] Phase: AE, Loss:  0.101268, Loss_rec:  0.101268
+[Pretrain Epoch 25 | 100] Phase: AE, Loss:  0.099451, Loss_rec:  0.099451
+[Pretrain Epoch 26 | 100] Phase: AE, Loss:  0.098551, Loss_rec:  0.098551
+[Pretrain Epoch 27 | 100] Phase: AE, Loss:  0.098742, Loss_rec:  0.098742
+[Pretrain Epoch 28 | 100] Phase: AE, Loss:  0.099532, Loss_rec:  0.099532
+[Pretrain Epoch 29 | 100] Phase: AE, Loss:  0.098414, Loss_rec:  0.098414
+[Pretrain Epoch 30 | 100] Phase: AE, Loss:  0.098501, Loss_rec:  0.098501
+[Pretrain Epoch 31 | 100] Phase: AE, Loss:  0.097893, Loss_rec:  0.097893
+[Pretrain Epoch 32 | 100] Phase: AE, Loss:  0.098231, Loss_rec:  0.098231
+[Pretrain Epoch 33 | 100] Phase: AE, Loss:  0.096695, Loss_rec:  0.096695
+[Pretrain Epoch 34 | 100] Phase: AE, Loss:  0.096859, Loss_rec:  0.096859
+[Pretrain Epoch 35 | 100] Phase: AE, Loss:  0.097126, Loss_rec:  0.097126
+[Pretrain Epoch 36 | 100] Phase: AE, Loss:  0.096693, Loss_rec:  0.096693
+[Pretrain Epoch 37 | 100] Phase: AE, Loss:  0.096118, Loss_rec:  0.096118
+[Pretrain Epoch 38 | 100] Phase: AE, Loss:  0.095569, Loss_rec:  0.095569
+[Pretrain Epoch 39 | 100] Phase: AE, Loss:  0.096344, Loss_rec:  0.096344
+[Pretrain Epoch 40 | 100] Phase: AE, Loss:  0.095903, Loss_rec:  0.095903
+[Pretrain Epoch 41 | 100] Phase: AE, Loss:  0.094954, Loss_rec:  0.094954
+[Pretrain Epoch 42 | 100] Phase: AE, Loss:  0.094743, Loss_rec:  0.094743
+[Pretrain Epoch 43 | 100] Phase: AE, Loss:  0.094874, Loss_rec:  0.094874
+[Pretrain Epoch 44 | 100] Phase: AE, Loss:  0.093936, Loss_rec:  0.093936
+[Pretrain Epoch 45 | 100] Phase: AE, Loss:  0.094940, Loss_rec:  0.094940
+[Pretrain Epoch 46 | 100] Phase: AE, Loss:  0.094069, Loss_rec:  0.094069
+[Pretrain Epoch 47 | 100] Phase: AE, Loss:  0.093764, Loss_rec:  0.093764
+[Pretrain Epoch 48 | 100] Phase: AE, Loss:  0.094246, Loss_rec:  0.094246
+[Pretrain Epoch 49 | 100] Phase: AE, Loss:  0.094291, Loss_rec:  0.094291
+[Pretrain Epoch 50 | 100] Phase: AE, Loss:  0.093557, Loss_rec:  0.093557
+[Pretrain Epoch 51 | 100] Phase: AE, Loss:  0.093449, Loss_rec:  0.093449
+[Pretrain Epoch 52 | 100] Phase: AE, Loss:  0.092686, Loss_rec:  0.092686
+[Pretrain Epoch 53 | 100] Phase: AE, Loss:  0.092068, Loss_rec:  0.092068
+[Pretrain Epoch 54 | 100] Phase: AE, Loss:  0.092783, Loss_rec:  0.092783
+[Pretrain Epoch 55 | 100] Phase: AE, Loss:  0.093889, Loss_rec:  0.093889
+[Pretrain Epoch 56 | 100] Phase: AE, Loss:  0.091869, Loss_rec:  0.091869
+[Pretrain Epoch 57 | 100] Phase: AE, Loss:  0.092243, Loss_rec:  0.092243
+[Pretrain Epoch 58 | 100] Phase: AE, Loss:  0.092348, Loss_rec:  0.092348
+[Pretrain Epoch 59 | 100] Phase: AE, Loss:  0.092050, Loss_rec:  0.092050
+[Pretrain Epoch 60 | 100] Phase: AE, Loss:  0.092807, Loss_rec:  0.092807
+[Pretrain Epoch 61 | 100] Phase: AE, Loss:  0.092879, Loss_rec:  0.092879
+[Pretrain Epoch 62 | 100] Phase: AE, Loss:  0.092186, Loss_rec:  0.092186
+[Pretrain Epoch 63 | 100] Phase: AE, Loss:  0.091455, Loss_rec:  0.091455
+[Pretrain Epoch 64 | 100] Phase: AE, Loss:  0.091687, Loss_rec:  0.091687
+[Pretrain Epoch 65 | 100] Phase: AE, Loss:  0.091578, Loss_rec:  0.091578
+[Pretrain Epoch 66 | 100] Phase: AE, Loss:  0.090974, Loss_rec:  0.090974
+[Pretrain Epoch 67 | 100] Phase: AE, Loss:  0.093089, Loss_rec:  0.093089
+[Pretrain Epoch 68 | 100] Phase: AE, Loss:  0.091639, Loss_rec:  0.091639
+[Pretrain Epoch 69 | 100] Phase: AE, Loss:  0.091856, Loss_rec:  0.091856
+[Pretrain Epoch 70 | 100] Phase: AE, Loss:  0.091882, Loss_rec:  0.091882
+[Pretrain Epoch 71 | 100] Phase: AE, Loss:  0.090766, Loss_rec:  0.090766
+[Pretrain Epoch 72 | 100] Phase: AE, Loss:  0.090748, Loss_rec:  0.090748
+[Pretrain Epoch 73 | 100] Phase: AE, Loss:  0.091171, Loss_rec:  0.091171
+[Pretrain Epoch 74 | 100] Phase: AE, Loss:  0.091260, Loss_rec:  0.091260
+[Pretrain Epoch 75 | 100] Phase: AE, Loss:  0.090824, Loss_rec:  0.090824
+[Pretrain Epoch 76 | 100] Phase: AE, Loss:  0.090832, Loss_rec:  0.090832
+[Pretrain Epoch 77 | 100] Phase: AE, Loss:  0.091463, Loss_rec:  0.091463
+[Pretrain Epoch 78 | 100] Phase: AE, Loss:  0.090664, Loss_rec:  0.090664
+[Pretrain Epoch 79 | 100] Phase: AE, Loss:  0.090938, Loss_rec:  0.090938
+[Pretrain Epoch 80 | 100] Phase: AE, Loss:  0.090875, Loss_rec:  0.090875
+[Pretrain Epoch 81 | 100] Phase: AE, Loss:  0.090967, Loss_rec:  0.090967
+[Pretrain Epoch 82 | 100] Phase: AE, Loss:  0.090355, Loss_rec:  0.090355
+[Pretrain Epoch 83 | 100] Phase: AE, Loss:  0.091529, Loss_rec:  0.091529
+[Pretrain Epoch 84 | 100] Phase: AE, Loss:  0.090395, Loss_rec:  0.090395
+[Pretrain Epoch 85 | 100] Phase: AE, Loss:  0.091105, Loss_rec:  0.091105
+[Pretrain Epoch 86 | 100] Phase: AE, Loss:  0.091206, Loss_rec:  0.091206
+[Pretrain Epoch 87 | 100] Phase: AE, Loss:  0.090620, Loss_rec:  0.090620
+[Pretrain Epoch 88 | 100] Phase: AE, Loss:  0.090833, Loss_rec:  0.090833
+[Pretrain Epoch 89 | 100] Phase: AE, Loss:  0.090600, Loss_rec:  0.090600
+[Pretrain Epoch 90 | 100] Phase: AE, Loss:  0.090011, Loss_rec:  0.090011
+[Pretrain Epoch 91 | 100] Phase: AE, Loss:  0.091168, Loss_rec:  0.091168
+[Pretrain Epoch 92 | 100] Phase: AE, Loss:  0.090881, Loss_rec:  0.090881
+[Pretrain Epoch 93 | 100] Phase: AE, Loss:  0.090747, Loss_rec:  0.090747
+[Pretrain Epoch 94 | 100] Phase: AE, Loss:  0.090787, Loss_rec:  0.090787
+[Pretrain Epoch 95 | 100] Phase: AE, Loss:  0.089882, Loss_rec:  0.089882
+[Pretrain Epoch 96 | 100] Phase: AE, Loss:  0.089829, Loss_rec:  0.089829
+[Pretrain Epoch 97 | 100] Phase: AE, Loss:  0.090351, Loss_rec:  0.090351
+[Pretrain Epoch 98 | 100] Phase: AE, Loss:  0.091624, Loss_rec:  0.091624
+[Pretrain Epoch 99 | 100] Phase: AE, Loss:  0.090504, Loss_rec:  0.090504
+[Pretrain Epoch 100 | 100] Phase: AE, Loss:  0.089481, Loss_rec:  0.089481
+Prototype schedule: start=20, warmup=50, min_mknn_weight=0.200, visit_weight=0.050, clu_min_conf=0.200, data_model=in, missing_rate=1.000, pair_assumption=True, no_pair_mode=False, effective_match_scale=1.000, mknn_topk=3, mknn_intra_weight=1.000, mknn_cross_weight=1.000, mknn_unpaired_fallback=False, prototype_walk_steps=0
+FLOPs: 30.677G, Params: 29.963M
+[Epoch 1 | 300] Loss:  5.876086, Loss_rec:  0.089039, Loss_MKnn:  5.787046, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 2 | 300] Loss:  5.804762, Loss_rec:  0.091464, Loss_MKnn:  5.713298, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 3 | 300] Loss:  5.771709, Loss_rec:  0.091534, Loss_MKnn:  5.680175, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 4 | 300] Loss:  5.675711, Loss_rec:  0.094491, Loss_MKnn:  5.581220, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 5 | 300] Loss:  5.604961, Loss_rec:  0.095468, Loss_MKnn:  5.509493, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 6 | 300] Loss:  5.524111, Loss_rec:  0.096590, Loss_MKnn:  5.427521, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 7 | 300] Loss:  5.443719, Loss_rec:  0.097534, Loss_MKnn:  5.346186, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 8 | 300] Loss:  5.347085, Loss_rec:  0.100277, Loss_MKnn:  5.246808, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 9 | 300] Loss:  5.282024, Loss_rec:  0.101592, Loss_MKnn:  5.180433, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 10 | 300] Loss:  5.207542, Loss_rec:  0.103128, Loss_MKnn:  5.104414, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 11 | 300] Loss:  5.155645, Loss_rec:  0.104412, Loss_MKnn:  5.051232, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 12 | 300] Loss:  5.098840, Loss_rec:  0.106012, Loss_MKnn:  4.992828, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 13 | 300] Loss:  5.053061, Loss_rec:  0.105051, Loss_MKnn:  4.948009, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 14 | 300] Loss:  5.043256, Loss_rec:  0.104449, Loss_MKnn:  4.938807, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 15 | 300] Loss:  4.995584, Loss_rec:  0.102611, Loss_MKnn:  4.892974, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 16 | 300] Loss:  4.926379, Loss_rec:  0.102720, Loss_MKnn:  4.823659, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 17 | 300] Loss:  4.951430, Loss_rec:  0.098795, Loss_MKnn:  4.852634, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 18 | 300] Loss:  4.909702, Loss_rec:  0.098253, Loss_MKnn:  4.811450, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 19 | 300] Loss:  4.878732, Loss_rec:  0.098578, Loss_MKnn:  4.780154, Loss_Match:  0.000000, Loss_clu:  0.000000, w_mknn: 1.0000, w_match: 0.0000, w_clu: 0.0000
+[Epoch 20 | 300] Loss:  4.855338, Loss_rec:  0.099369, Loss_MKnn:  4.764211, Loss_Match:  1.959751, Loss_clu:  0.010253, w_mknn: 0.9900, w_match: 0.0200, w_clu: 0.0200
+[Epoch 21 | 300] Loss:  4.830548, Loss_rec:  0.100458, Loss_MKnn:  4.746541, Loss_Match:  1.951991, Loss_clu:  0.009973, w_mknn: 0.9800, w_match: 0.0400, w_clu: 0.0400
+[Epoch 22 | 300] Loss:  4.788820, Loss_rec:  0.100431, Loss_MKnn:  4.712157, Loss_Match:  1.950166, Loss_clu:  0.009776, w_mknn: 0.9700, w_match: 0.0600, w_clu: 0.0600
+[Epoch 23 | 300] Loss:  4.809064, Loss_rec:  0.096910, Loss_MKnn:  4.744969, Loss_Match:  1.952826, Loss_clu:  0.009476, w_mknn: 0.9600, w_match: 0.0800, w_clu: 0.0800
+[Epoch 24 | 300] Loss:  4.772990, Loss_rec:  0.096765, Loss_MKnn:  4.715825, Loss_Match:  1.952952, Loss_clu:  0.008957, w_mknn: 0.9500, w_match: 0.1000, w_clu: 0.1000
+[Epoch 25 | 300] Loss:  4.735661, Loss_rec:  0.096820, Loss_MKnn:  4.687872, Loss_Match:  1.926460, Loss_clu:  0.008878, w_mknn: 0.9400, w_match: 0.1200, w_clu: 0.1200
+[Epoch 26 | 300] Loss:  4.735188, Loss_rec:  0.095196, Loss_MKnn:  4.698624, Loss_Match:  1.922094, Loss_clu:  0.008421, w_mknn: 0.9300, w_match: 0.1400, w_clu: 0.1400
+[Epoch 27 | 300] Loss:  4.676613, Loss_rec:  0.094505, Loss_MKnn:  4.645864, Loss_Match:  1.916292, Loss_clu:  0.008164, w_mknn: 0.9200, w_match: 0.1600, w_clu: 0.1600
+[Epoch 28 | 300] Loss:  4.663422, Loss_rec:  0.092952, Loss_MKnn:  4.640021, Loss_Match:  1.925952, Loss_clu:  0.007662, w_mknn: 0.9100, w_match: 0.1800, w_clu: 0.1800
+[Epoch 29 | 300] Loss:  4.649415, Loss_rec:  0.092496, Loss_MKnn:  4.634764, Loss_Match:  1.920639, Loss_clu:  0.007527, w_mknn: 0.9000, w_match: 0.2000, w_clu: 0.2000
+[Epoch 30 | 300] Loss:  4.609108, Loss_rec:  0.092271, Loss_MKnn:  4.609308, Loss_Match:  1.871346, Loss_clu:  0.012984, w_mknn: 0.8900, w_match: 0.2200, w_clu: 0.2200
+[Epoch 31 | 300] Loss:  4.580205, Loss_rec:  0.092080, Loss_MKnn:  4.588807, Loss_Match:  1.862053, Loss_clu:  0.012843, w_mknn: 0.8800, w_match: 0.2400, w_clu: 0.2400
+[Epoch 32 | 300] Loss:  4.563832, Loss_rec:  0.092308, Loss_MKnn:  4.579258, Loss_Match:  1.862857, Loss_clu:  0.012413, w_mknn: 0.8700, w_match: 0.2600, w_clu: 0.2600
+[Epoch 33 | 300] Loss:  4.527789, Loss_rec:  0.093111, Loss_MKnn:  4.549827, Loss_Match:  1.851511, Loss_clu:  0.012156, w_mknn: 0.8600, w_match: 0.2800, w_clu: 0.2800
+[Epoch 34 | 300] Loss:  4.508306, Loss_rec:  0.091443, Loss_MKnn:  4.538054, Loss_Match:  1.853137, Loss_clu:  0.011916, w_mknn: 0.8500, w_match: 0.3000, w_clu: 0.3000
+[Epoch 35 | 300] Loss:  4.456837, Loss_rec:  0.092518, Loss_MKnn:  4.487172, Loss_Match:  1.848193, Loss_clu:  0.011479, w_mknn: 0.8400, w_match: 0.3200, w_clu: 0.3200
+[Epoch 36 | 300] Loss:  4.445548, Loss_rec:  0.091057, Loss_MKnn:  4.493297, Loss_Match:  1.826909, Loss_clu:  0.011487, w_mknn: 0.8300, w_match: 0.3400, w_clu: 0.3400
+[Epoch 37 | 300] Loss:  4.419501, Loss_rec:  0.091071, Loss_MKnn:  4.471684, Loss_Match:  1.826847, Loss_clu:  0.011068, w_mknn: 0.8200, w_match: 0.3600, w_clu: 0.3600
+[Epoch 38 | 300] Loss:  4.412643, Loss_rec:  0.090690, Loss_MKnn:  4.475402, Loss_Match:  1.822936, Loss_clu:  0.010953, w_mknn: 0.8100, w_match: 0.3800, w_clu: 0.3800
+[Epoch 39 | 300] Loss:  4.369961, Loss_rec:  0.091701, Loss_MKnn:  4.427868, Loss_Match:  1.829481, Loss_clu:  0.010435, w_mknn: 0.8000, w_match: 0.4000, w_clu: 0.4000
+[Epoch 40 | 300] Loss:  4.333769, Loss_rec:  0.090271, Loss_MKnn:  4.430048, Loss_Match:  1.754474, Loss_clu:  0.016383, w_mknn: 0.7900, w_match: 0.4200, w_clu: 0.4200
+[Epoch 41 | 300] Loss:  4.283719, Loss_rec:  0.091608, Loss_MKnn:  4.387980, Loss_Match:  1.732565, Loss_clu:  0.016269, w_mknn: 0.7800, w_match: 0.4400, w_clu: 0.4400
+[Epoch 42 | 300] Loss:  4.287810, Loss_rec:  0.089920, Loss_MKnn:  4.406201, Loss_Match:  1.734356, Loss_clu:  0.015896, w_mknn: 0.7700, w_match: 0.4600, w_clu: 0.4600
+[Epoch 43 | 300] Loss:  4.256733, Loss_rec:  0.089984, Loss_MKnn:  4.380710, Loss_Match:  1.729006, Loss_clu:  0.015597, w_mknn: 0.7600, w_match: 0.4800, w_clu: 0.4800
+[Epoch 44 | 300] Loss:  4.206352, Loss_rec:  0.090324, Loss_MKnn:  4.320891, Loss_Match:  1.735679, Loss_clu:  0.015040, w_mknn: 0.7500, w_match: 0.5000, w_clu: 0.5000
+[Epoch 45 | 300] Loss:  4.207460, Loss_rec:  0.089243, Loss_MKnn:  4.344225, Loss_Match:  1.722681, Loss_clu:  0.014802, w_mknn: 0.7400, w_match: 0.5200, w_clu: 0.5200
+[Epoch 46 | 300] Loss:  4.162130, Loss_rec:  0.090638, Loss_MKnn:  4.306502, Loss_Match:  1.703457, Loss_clu:  0.014590, w_mknn: 0.7300, w_match: 0.5400, w_clu: 0.5400
+[Epoch 47 | 300] Loss:  4.154385, Loss_rec:  0.089600, Loss_MKnn:  4.324100, Loss_Match:  1.684695, Loss_clu:  0.014292, w_mknn: 0.7200, w_match: 0.5600, w_clu: 0.5600
+[Epoch 48 | 300] Loss:  4.125556, Loss_rec:  0.089479, Loss_MKnn:  4.300921, Loss_Match:  1.679822, Loss_clu:  0.014012, w_mknn: 0.7100, w_match: 0.5800, w_clu: 0.5800
+[Epoch 49 | 300] Loss:  4.090400, Loss_rec:  0.089234, Loss_MKnn:  4.267983, Loss_Match:  1.675388, Loss_clu:  0.013909, w_mknn: 0.7000, w_match: 0.6000, w_clu: 0.6000
+[Epoch 50 | 300] Loss:  4.032033, Loss_rec:  0.088738, Loss_MKnn:  4.262672, Loss_Match:  1.593651, Loss_clu:  0.022561, w_mknn: 0.6900, w_match: 0.6200, w_clu: 0.6200
+[Epoch 51 | 300] Loss:  4.009023, Loss_rec:  0.088454, Loss_MKnn:  4.246228, Loss_Match:  1.592404, Loss_clu:  0.021868, w_mknn: 0.6800, w_match: 0.6400, w_clu: 0.6400
+[Epoch 52 | 300] Loss:  3.972896, Loss_rec:  0.089180, Loss_MKnn:  4.223152, Loss_Match:  1.575675, Loss_clu:  0.021604, w_mknn: 0.6700, w_match: 0.6600, w_clu: 0.6600
+[Epoch 53 | 300] Loss:  3.945616, Loss_rec:  0.089104, Loss_MKnn:  4.214139, Loss_Match:  1.559762, Loss_clu:  0.021386, w_mknn: 0.6600, w_match: 0.6800, w_clu: 0.6800
+[Epoch 54 | 300] Loss:  3.935366, Loss_rec:  0.088252, Loss_MKnn:  4.226639, Loss_Match:  1.550410, Loss_clu:  0.020732, w_mknn: 0.6500, w_match: 0.7000, w_clu: 0.7000
+[Epoch 55 | 300] Loss:  3.913655, Loss_rec:  0.087817, Loss_MKnn:  4.205620, Loss_Match:  1.555179, Loss_clu:  0.020157, w_mknn: 0.6400, w_match: 0.7200, w_clu: 0.7200
+[Epoch 56 | 300] Loss:  3.890775, Loss_rec:  0.088040, Loss_MKnn:  4.200846, Loss_Match:  1.542755, Loss_clu:  0.019680, w_mknn: 0.6300, w_match: 0.7400, w_clu: 0.7400
+[Epoch 57 | 300] Loss:  3.874583, Loss_rec:  0.086253, Loss_MKnn:  4.217349, Loss_Match:  1.524484, Loss_clu:  0.019692, w_mknn: 0.6200, w_match: 0.7600, w_clu: 0.7600
+[Epoch 58 | 300] Loss:  3.845722, Loss_rec:  0.086645, Loss_MKnn:  4.206185, Loss_Match:  1.510211, Loss_clu:  0.019666, w_mknn: 0.6100, w_match: 0.7800, w_clu: 0.7800
+[Epoch 59 | 300] Loss:  3.820906, Loss_rec:  0.086497, Loss_MKnn:  4.193072, Loss_Match:  1.503954, Loss_clu:  0.019253, w_mknn: 0.6000, w_match: 0.8000, w_clu: 0.8000
+[Epoch 60 | 300] Loss:  3.758539, Loss_rec:  0.086427, Loss_MKnn:  4.182504, Loss_Match:  1.437940, Loss_clu:  0.030883, w_mknn: 0.5900, w_match: 0.8200, w_clu: 0.8200
+[Epoch 61 | 300] Loss:  3.732199, Loss_rec:  0.086415, Loss_MKnn:  4.168264, Loss_Match:  1.431856, Loss_clu:  0.030275, w_mknn: 0.5800, w_match: 0.8400, w_clu: 0.8400
+[Epoch 62 | 300] Loss:  3.695135, Loss_rec:  0.087180, Loss_MKnn:  4.128465, Loss_Match:  1.429199, Loss_clu:  0.029789, w_mknn: 0.5700, w_match: 0.8600, w_clu: 0.8600
+[Epoch 63 | 300] Loss:  3.681244, Loss_rec:  0.085671, Loss_MKnn:  4.165026, Loss_Match:  1.405637, Loss_clu:  0.029771, w_mknn: 0.5600, w_match: 0.8800, w_clu: 0.8800
+[Epoch 64 | 300] Loss:  3.652985, Loss_rec:  0.086358, Loss_MKnn:  4.152809, Loss_Match:  1.396174, Loss_clu:  0.028917, w_mknn: 0.5500, w_match: 0.9000, w_clu: 0.9000
+[Epoch 65 | 300] Loss:  3.639534, Loss_rec:  0.086178, Loss_MKnn:  4.152568, Loss_Match:  1.396828, Loss_clu:  0.028140, w_mknn: 0.5400, w_match: 0.9200, w_clu: 0.9200
+[Epoch 66 | 300] Loss:  3.617022, Loss_rec:  0.084985, Loss_MKnn:  4.158753, Loss_Match:  1.384645, Loss_clu:  0.028011, w_mknn: 0.5300, w_match: 0.9400, w_clu: 0.9400
+[Epoch 67 | 300] Loss:  3.598579, Loss_rec:  0.085247, Loss_MKnn:  4.159683, Loss_Match:  1.379052, Loss_clu:  0.027507, w_mknn: 0.5200, w_match: 0.9600, w_clu: 0.9600
+[Epoch 68 | 300] Loss:  3.558923, Loss_rec:  0.085407, Loss_MKnn:  4.151954, Loss_Match:  1.356193, Loss_clu:  0.027501, w_mknn: 0.5100, w_match: 0.9800, w_clu: 0.9800
+[Epoch 69 | 300] Loss:  3.532805, Loss_rec:  0.084938, Loss_MKnn:  4.157801, Loss_Match:  1.342089, Loss_clu:  0.026878, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 70 | 300] Loss:  3.512851, Loss_rec:  0.084932, Loss_MKnn:  4.154122, Loss_Match:  1.308678, Loss_clu:  0.042180, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 71 | 300] Loss:  3.489327, Loss_rec:  0.084524, Loss_MKnn:  4.170188, Loss_Match:  1.277608, Loss_clu:  0.042101, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 72 | 300] Loss:  3.478954, Loss_rec:  0.084598, Loss_MKnn:  4.160849, Loss_Match:  1.272473, Loss_clu:  0.041458, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 73 | 300] Loss:  3.464276, Loss_rec:  0.084925, Loss_MKnn:  4.147277, Loss_Match:  1.265075, Loss_clu:  0.040637, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 74 | 300] Loss:  3.463459, Loss_rec:  0.084256, Loss_MKnn:  4.171670, Loss_Match:  1.253256, Loss_clu:  0.040111, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 75 | 300] Loss:  3.451479, Loss_rec:  0.084256, Loss_MKnn:  4.168453, Loss_Match:  1.243254, Loss_clu:  0.039744, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 76 | 300] Loss:  3.451941, Loss_rec:  0.084145, Loss_MKnn:  4.182036, Loss_Match:  1.237497, Loss_clu:  0.039280, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 77 | 300] Loss:  3.437893, Loss_rec:  0.084005, Loss_MKnn:  4.167807, Loss_Match:  1.230995, Loss_clu:  0.038990, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 78 | 300] Loss:  3.434983, Loss_rec:  0.082965, Loss_MKnn:  4.163372, Loss_Match:  1.231597, Loss_clu:  0.038735, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 79 | 300] Loss:  3.413322, Loss_rec:  0.084310, Loss_MKnn:  4.145009, Loss_Match:  1.217861, Loss_clu:  0.038646, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 80 | 300] Loss:  3.436500, Loss_rec:  0.083071, Loss_MKnn:  4.180061, Loss_Match:  1.206675, Loss_clu:  0.056723, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 81 | 300] Loss:  3.417802, Loss_rec:  0.083957, Loss_MKnn:  4.148772, Loss_Match:  1.202727, Loss_clu:  0.056731, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 82 | 300] Loss:  3.399801, Loss_rec:  0.084082, Loss_MKnn:  4.129375, Loss_Match:  1.195027, Loss_clu:  0.056004, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 83 | 300] Loss:  3.400900, Loss_rec:  0.083783, Loss_MKnn:  4.120407, Loss_Match:  1.201481, Loss_clu:  0.055432, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 84 | 300] Loss:  3.391594, Loss_rec:  0.083832, Loss_MKnn:  4.130264, Loss_Match:  1.187074, Loss_clu:  0.055557, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 85 | 300] Loss:  3.380077, Loss_rec:  0.083705, Loss_MKnn:  4.104801, Loss_Match:  1.189161, Loss_clu:  0.054810, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 86 | 300] Loss:  3.376841, Loss_rec:  0.082947, Loss_MKnn:  4.115316, Loss_Match:  1.181371, Loss_clu:  0.054864, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 87 | 300] Loss:  3.381744, Loss_rec:  0.082290, Loss_MKnn:  4.125940, Loss_Match:  1.182001, Loss_clu:  0.054484, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 88 | 300] Loss:  3.357598, Loss_rec:  0.083006, Loss_MKnn:  4.093461, Loss_Match:  1.173764, Loss_clu:  0.054098, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 89 | 300] Loss:  3.363611, Loss_rec:  0.082303, Loss_MKnn:  4.117493, Loss_Match:  1.168307, Loss_clu:  0.054255, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 90 | 300] Loss:  3.379240, Loss_rec:  0.083965, Loss_MKnn:  4.060007, Loss_Match:  1.191664, Loss_clu:  0.073607, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 91 | 300] Loss:  3.369318, Loss_rec:  0.082970, Loss_MKnn:  4.080025, Loss_Match:  1.172058, Loss_clu:  0.074278, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 92 | 300] Loss:  3.380410, Loss_rec:  0.082300, Loss_MKnn:  4.101374, Loss_Match:  1.173938, Loss_clu:  0.073485, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 93 | 300] Loss:  3.372740, Loss_rec:  0.082702, Loss_MKnn:  4.084488, Loss_Match:  1.175104, Loss_clu:  0.072689, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 94 | 300] Loss:  3.363996, Loss_rec:  0.082539, Loss_MKnn:  4.086393, Loss_Match:  1.165572, Loss_clu:  0.072688, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 95 | 300] Loss:  3.367894, Loss_rec:  0.082496, Loss_MKnn:  4.093990, Loss_Match:  1.165338, Loss_clu:  0.073065, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 96 | 300] Loss:  3.362253, Loss_rec:  0.082788, Loss_MKnn:  4.075656, Loss_Match:  1.169122, Loss_clu:  0.072516, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 97 | 300] Loss:  3.346510, Loss_rec:  0.082474, Loss_MKnn:  4.076389, Loss_Match:  1.152183, Loss_clu:  0.073658, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 98 | 300] Loss:  3.346850, Loss_rec:  0.082106, Loss_MKnn:  4.072572, Loss_Match:  1.155805, Loss_clu:  0.072653, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 99 | 300] Loss:  3.335108, Loss_rec:  0.081991, Loss_MKnn:  4.065200, Loss_Match:  1.147355, Loss_clu:  0.073163, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 100 | 300] Loss:  3.352676, Loss_rec:  0.081640, Loss_MKnn:  4.073886, Loss_Match:  1.141352, Loss_clu:  0.092741, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 101 | 300] Loss:  3.337306, Loss_rec:  0.082560, Loss_MKnn:  4.048174, Loss_Match:  1.137503, Loss_clu:  0.093156, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 102 | 300] Loss:  3.320284, Loss_rec:  0.082295, Loss_MKnn:  4.048935, Loss_Match:  1.119911, Loss_clu:  0.093611, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 103 | 300] Loss:  3.319049, Loss_rec:  0.081085, Loss_MKnn:  4.066651, Loss_Match:  1.110829, Loss_clu:  0.093810, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 104 | 300] Loss:  3.317153, Loss_rec:  0.081340, Loss_MKnn:  4.069868, Loss_Match:  1.106908, Loss_clu:  0.093971, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 105 | 300] Loss:  3.307127, Loss_rec:  0.081581, Loss_MKnn:  4.054461, Loss_Match:  1.103590, Loss_clu:  0.094725, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 106 | 300] Loss:  3.295971, Loss_rec:  0.081909, Loss_MKnn:  4.035464, Loss_Match:  1.101348, Loss_clu:  0.094982, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 107 | 300] Loss:  3.309986, Loss_rec:  0.080839, Loss_MKnn:  4.061954, Loss_Match:  1.102216, Loss_clu:  0.095954, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 108 | 300] Loss:  3.295460, Loss_rec:  0.080855, Loss_MKnn:  4.066593, Loss_Match:  1.084988, Loss_clu:  0.096320, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 109 | 300] Loss:  3.288410, Loss_rec:  0.081472, Loss_MKnn:  4.049960, Loss_Match:  1.085295, Loss_clu:  0.096662, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 110 | 300] Loss:  3.279967, Loss_rec:  0.081278, Loss_MKnn:  4.040273, Loss_Match:  1.081552, Loss_clu:  0.097000, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 111 | 300] Loss:  3.288037, Loss_rec:  0.081647, Loss_MKnn:  4.038275, Loss_Match:  1.089698, Loss_clu:  0.097555, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 112 | 300] Loss:  3.271343, Loss_rec:  0.081638, Loss_MKnn:  4.041195, Loss_Match:  1.070151, Loss_clu:  0.098956, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 113 | 300] Loss:  3.263879, Loss_rec:  0.081536, Loss_MKnn:  4.039583, Loss_Match:  1.063065, Loss_clu:  0.099486, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 114 | 300] Loss:  3.264383, Loss_rec:  0.081440, Loss_MKnn:  4.021324, Loss_Match:  1.072879, Loss_clu:  0.099402, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 115 | 300] Loss:  3.263682, Loss_rec:  0.081524, Loss_MKnn:  4.039646, Loss_Match:  1.061846, Loss_clu:  0.100488, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 116 | 300] Loss:  3.273103, Loss_rec:  0.080858, Loss_MKnn:  4.045388, Loss_Match:  1.067905, Loss_clu:  0.101646, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 117 | 300] Loss:  3.268686, Loss_rec:  0.081376, Loss_MKnn:  4.041445, Loss_Match:  1.065073, Loss_clu:  0.101514, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 118 | 300] Loss:  3.271216, Loss_rec:  0.081469, Loss_MKnn:  4.034086, Loss_Match:  1.069623, Loss_clu:  0.103081, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 119 | 300] Loss:  3.265874, Loss_rec:  0.081844, Loss_MKnn:  4.032667, Loss_Match:  1.064679, Loss_clu:  0.103017, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 120 | 300] Loss:  3.245238, Loss_rec:  0.081914, Loss_MKnn:  4.002879, Loss_Match:  1.057262, Loss_clu:  0.104623, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 121 | 300] Loss:  3.245879, Loss_rec:  0.082219, Loss_MKnn:  4.018435, Loss_Match:  1.049223, Loss_clu:  0.105220, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 122 | 300] Loss:  3.259160, Loss_rec:  0.081568, Loss_MKnn:  4.040588, Loss_Match:  1.051318, Loss_clu:  0.105980, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 123 | 300] Loss:  3.247163, Loss_rec:  0.082003, Loss_MKnn:  4.006631, Loss_Match:  1.054524, Loss_clu:  0.107320, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 124 | 300] Loss:  3.248352, Loss_rec:  0.081484, Loss_MKnn:  4.015287, Loss_Match:  1.051707, Loss_clu:  0.107517, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 125 | 300] Loss:  3.247894, Loss_rec:  0.080805, Loss_MKnn:  4.050129, Loss_Match:  1.032386, Loss_clu:  0.109639, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 126 | 300] Loss:  3.234628, Loss_rec:  0.081720, Loss_MKnn:  4.013995, Loss_Match:  1.036086, Loss_clu:  0.109824, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 127 | 300] Loss:  3.247307, Loss_rec:  0.081441, Loss_MKnn:  4.008901, Loss_Match:  1.050222, Loss_clu:  0.111194, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 128 | 300] Loss:  3.239165, Loss_rec:  0.081181, Loss_MKnn:  4.018498, Loss_Match:  1.037404, Loss_clu:  0.111331, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 129 | 300] Loss:  3.238583, Loss_rec:  0.081425, Loss_MKnn:  4.018927, Loss_Match:  1.033644, Loss_clu:  0.114051, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 130 | 300] Loss:  3.250585, Loss_rec:  0.080432, Loss_MKnn:  4.054221, Loss_Match:  1.029462, Loss_clu:  0.113581, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 131 | 300] Loss:  3.230395, Loss_rec:  0.081607, Loss_MKnn:  3.992451, Loss_Match:  1.037673, Loss_clu:  0.114889, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 132 | 300] Loss:  3.236858, Loss_rec:  0.081580, Loss_MKnn:  4.011866, Loss_Match:  1.033221, Loss_clu:  0.116124, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 133 | 300] Loss:  3.233037, Loss_rec:  0.081837, Loss_MKnn:  4.009854, Loss_Match:  1.029540, Loss_clu:  0.116732, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 134 | 300] Loss:  3.243906, Loss_rec:  0.080562, Loss_MKnn:  4.032787, Loss_Match:  1.029394, Loss_clu:  0.117557, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 135 | 300] Loss:  3.225888, Loss_rec:  0.081487, Loss_MKnn:  4.001145, Loss_Match:  1.026839, Loss_clu:  0.116990, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 136 | 300] Loss:  3.236511, Loss_rec:  0.080734, Loss_MKnn:  4.018298, Loss_Match:  1.026441, Loss_clu:  0.120188, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 137 | 300] Loss:  3.231301, Loss_rec:  0.081061, Loss_MKnn:  4.015066, Loss_Match:  1.022631, Loss_clu:  0.120076, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 138 | 300] Loss:  3.224667, Loss_rec:  0.080785, Loss_MKnn:  4.008620, Loss_Match:  1.018703, Loss_clu:  0.120869, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 139 | 300] Loss:  3.221725, Loss_rec:  0.081618, Loss_MKnn:  4.014226, Loss_Match:  1.011960, Loss_clu:  0.121035, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 140 | 300] Loss:  3.223179, Loss_rec:  0.081733, Loss_MKnn:  4.000466, Loss_Match:  1.017943, Loss_clu:  0.123270, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 141 | 300] Loss:  3.225957, Loss_rec:  0.081191, Loss_MKnn:  4.015524, Loss_Match:  1.014290, Loss_clu:  0.122714, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 142 | 300] Loss:  3.233298, Loss_rec:  0.081190, Loss_MKnn:  4.026780, Loss_Match:  1.015061, Loss_clu:  0.123657, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 143 | 300] Loss:  3.222463, Loss_rec:  0.081415, Loss_MKnn:  4.006005, Loss_Match:  1.013045, Loss_clu:  0.125000, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 144 | 300] Loss:  3.223881, Loss_rec:  0.080733, Loss_MKnn:  4.018260, Loss_Match:  1.008536, Loss_clu:  0.125481, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 145 | 300] Loss:  3.221964, Loss_rec:  0.080837, Loss_MKnn:  4.036119, Loss_Match:  0.995411, Loss_clu:  0.127657, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 146 | 300] Loss:  3.232708, Loss_rec:  0.080785, Loss_MKnn:  4.021873, Loss_Match:  1.013240, Loss_clu:  0.127746, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 147 | 300] Loss:  3.218828, Loss_rec:  0.081697, Loss_MKnn:  3.996254, Loss_Match:  1.010512, Loss_clu:  0.128492, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 148 | 300] Loss:  3.229009, Loss_rec:  0.080673, Loss_MKnn:  4.025597, Loss_Match:  1.007052, Loss_clu:  0.128485, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 149 | 300] Loss:  3.222972, Loss_rec:  0.081386, Loss_MKnn:  4.022555, Loss_Match:  1.000377, Loss_clu:  0.129932, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 150 | 300] Loss:  3.221297, Loss_rec:  0.081083, Loss_MKnn:  4.009756, Loss_Match:  1.005077, Loss_clu:  0.130260, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 151 | 300] Loss:  3.220641, Loss_rec:  0.081496, Loss_MKnn:  4.028902, Loss_Match:  0.992496, Loss_clu:  0.132198, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 152 | 300] Loss:  3.226748, Loss_rec:  0.080977, Loss_MKnn:  4.023925, Loss_Match:  1.002434, Loss_clu:  0.131373, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 153 | 300] Loss:  3.218527, Loss_rec:  0.080567, Loss_MKnn:  4.011226, Loss_Match:  0.998606, Loss_clu:  0.133740, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 154 | 300] Loss:  3.218718, Loss_rec:  0.081292, Loss_MKnn:  4.022137, Loss_Match:  0.992574, Loss_clu:  0.133783, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 155 | 300] Loss:  3.207406, Loss_rec:  0.080718, Loss_MKnn:  4.003546, Loss_Match:  0.991032, Loss_clu:  0.133883, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 156 | 300] Loss:  3.214787, Loss_rec:  0.080333, Loss_MKnn:  4.019521, Loss_Match:  0.989142, Loss_clu:  0.135551, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 157 | 300] Loss:  3.204316, Loss_rec:  0.081869, Loss_MKnn:  3.979839, Loss_Match:  0.997474, Loss_clu:  0.135053, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 158 | 300] Loss:  3.215867, Loss_rec:  0.080998, Loss_MKnn:  4.003051, Loss_Match:  0.995800, Loss_clu:  0.137544, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 159 | 300] Loss:  3.215311, Loss_rec:  0.080787, Loss_MKnn:  4.017655, Loss_Match:  0.987501, Loss_clu:  0.138195, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 160 | 300] Loss:  3.218062, Loss_rec:  0.080970, Loss_MKnn:  4.020923, Loss_Match:  0.988492, Loss_clu:  0.138139, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 161 | 300] Loss:  3.203698, Loss_rec:  0.081207, Loss_MKnn:  3.990674, Loss_Match:  0.989360, Loss_clu:  0.137793, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 162 | 300] Loss:  3.220541, Loss_rec:  0.080358, Loss_MKnn:  4.025100, Loss_Match:  0.987976, Loss_clu:  0.139657, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 163 | 300] Loss:  3.222695, Loss_rec:  0.080019, Loss_MKnn:  4.030268, Loss_Match:  0.987201, Loss_clu:  0.140340, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 164 | 300] Loss:  3.220780, Loss_rec:  0.080394, Loss_MKnn:  4.021761, Loss_Match:  0.989359, Loss_clu:  0.140147, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 165 | 300] Loss:  3.220412, Loss_rec:  0.080143, Loss_MKnn:  4.015531, Loss_Match:  0.990509, Loss_clu:  0.141995, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 166 | 300] Loss:  3.223630, Loss_rec:  0.080116, Loss_MKnn:  4.019316, Loss_Match:  0.991728, Loss_clu:  0.142129, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 167 | 300] Loss:  3.229221, Loss_rec:  0.079778, Loss_MKnn:  4.029883, Loss_Match:  0.990586, Loss_clu:  0.143915, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 168 | 300] Loss:  3.208296, Loss_rec:  0.080712, Loss_MKnn:  4.002678, Loss_Match:  0.981385, Loss_clu:  0.144860, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 169 | 300] Loss:  3.208162, Loss_rec:  0.081461, Loss_MKnn:  3.986991, Loss_Match:  0.988518, Loss_clu:  0.144688, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 170 | 300] Loss:  3.217233, Loss_rec:  0.080553, Loss_MKnn:  4.007442, Loss_Match:  0.986272, Loss_clu:  0.146687, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 171 | 300] Loss:  3.222656, Loss_rec:  0.080525, Loss_MKnn:  4.010013, Loss_Match:  0.990616, Loss_clu:  0.146509, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 172 | 300] Loss:  3.216268, Loss_rec:  0.080350, Loss_MKnn:  4.004681, Loss_Match:  0.988242, Loss_clu:  0.145336, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 173 | 300] Loss:  3.222497, Loss_rec:  0.080520, Loss_MKnn:  4.027883, Loss_Match:  0.980521, Loss_clu:  0.147514, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 174 | 300] Loss:  3.211057, Loss_rec:  0.080624, Loss_MKnn:  4.015802, Loss_Match:  0.975051, Loss_clu:  0.147481, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 175 | 300] Loss:  3.211008, Loss_rec:  0.080929, Loss_MKnn:  3.999804, Loss_Match:  0.982140, Loss_clu:  0.148036, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 176 | 300] Loss:  3.228492, Loss_rec:  0.079527, Loss_MKnn:  4.051730, Loss_Match:  0.973076, Loss_clu:  0.150024, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 177 | 300] Loss:  3.220253, Loss_rec:  0.080273, Loss_MKnn:  4.011227, Loss_Match:  0.984478, Loss_clu:  0.149887, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 178 | 300] Loss:  3.207564, Loss_rec:  0.080213, Loss_MKnn:  4.008648, Loss_Match:  0.972051, Loss_clu:  0.150976, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 179 | 300] Loss:  3.227119, Loss_rec:  0.079886, Loss_MKnn:  4.035637, Loss_Match:  0.976832, Loss_clu:  0.152582, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 180 | 300] Loss:  3.217032, Loss_rec:  0.079719, Loss_MKnn:  4.015376, Loss_Match:  0.977819, Loss_clu:  0.151805, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 181 | 300] Loss:  3.205814, Loss_rec:  0.080885, Loss_MKnn:  4.003105, Loss_Match:  0.971645, Loss_clu:  0.151731, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 182 | 300] Loss:  3.202298, Loss_rec:  0.081013, Loss_MKnn:  3.994389, Loss_Match:  0.971766, Loss_clu:  0.152324, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 183 | 300] Loss:  3.210386, Loss_rec:  0.080418, Loss_MKnn:  3.988519, Loss_Match:  0.982641, Loss_clu:  0.153067, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 184 | 300] Loss:  3.217492, Loss_rec:  0.080483, Loss_MKnn:  4.016679, Loss_Match:  0.975058, Loss_clu:  0.153612, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 185 | 300] Loss:  3.201087, Loss_rec:  0.080728, Loss_MKnn:  3.981061, Loss_Match:  0.975931, Loss_clu:  0.153896, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 186 | 300] Loss:  3.205802, Loss_rec:  0.080648, Loss_MKnn:  3.992227, Loss_Match:  0.974472, Loss_clu:  0.154569, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 187 | 300] Loss:  3.213026, Loss_rec:  0.080086, Loss_MKnn:  4.006032, Loss_Match:  0.974566, Loss_clu:  0.155358, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 188 | 300] Loss:  3.217961, Loss_rec:  0.080395, Loss_MKnn:  3.989888, Loss_Match:  0.986792, Loss_clu:  0.155830, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 189 | 300] Loss:  3.214654, Loss_rec:  0.080253, Loss_MKnn:  4.014380, Loss_Match:  0.971281, Loss_clu:  0.155930, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 190 | 300] Loss:  3.202449, Loss_rec:  0.080925, Loss_MKnn:  3.991028, Loss_Match:  0.968562, Loss_clu:  0.157448, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 191 | 300] Loss:  3.206198, Loss_rec:  0.080758, Loss_MKnn:  4.006240, Loss_Match:  0.964621, Loss_clu:  0.157698, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 192 | 300] Loss:  3.210640, Loss_rec:  0.079985, Loss_MKnn:  4.018156, Loss_Match:  0.963708, Loss_clu:  0.157870, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 193 | 300] Loss:  3.219364, Loss_rec:  0.079817, Loss_MKnn:  4.026385, Loss_Match:  0.967486, Loss_clu:  0.158868, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 194 | 300] Loss:  3.209077, Loss_rec:  0.080724, Loss_MKnn:  3.992097, Loss_Match:  0.973305, Loss_clu:  0.159000, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 195 | 300] Loss:  3.203022, Loss_rec:  0.081679, Loss_MKnn:  3.972532, Loss_Match:  0.976142, Loss_clu:  0.158935, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 196 | 300] Loss:  3.210642, Loss_rec:  0.079613, Loss_MKnn:  4.011177, Loss_Match:  0.964940, Loss_clu:  0.160501, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 197 | 300] Loss:  3.211232, Loss_rec:  0.080454, Loss_MKnn:  4.005169, Loss_Match:  0.967954, Loss_clu:  0.160240, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 198 | 300] Loss:  3.195065, Loss_rec:  0.080974, Loss_MKnn:  4.002678, Loss_Match:  0.951506, Loss_clu:  0.161246, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 199 | 300] Loss:  3.211097, Loss_rec:  0.080735, Loss_MKnn:  3.995865, Loss_Match:  0.970773, Loss_clu:  0.161656, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 200 | 300] Loss:  3.192022, Loss_rec:  0.081190, Loss_MKnn:  3.976925, Loss_Match:  0.960521, Loss_clu:  0.161848, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 201 | 300] Loss:  3.221387, Loss_rec:  0.079903, Loss_MKnn:  4.016959, Loss_Match:  0.970678, Loss_clu:  0.162326, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 202 | 300] Loss:  3.201006, Loss_rec:  0.080946, Loss_MKnn:  3.996154, Loss_Match:  0.958696, Loss_clu:  0.163288, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 203 | 300] Loss:  3.201543, Loss_rec:  0.080829, Loss_MKnn:  3.985332, Loss_Match:  0.965954, Loss_clu:  0.162094, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 204 | 300] Loss:  3.209529, Loss_rec:  0.081124, Loss_MKnn:  3.981913, Loss_Match:  0.974857, Loss_clu:  0.162591, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 205 | 300] Loss:  3.208234, Loss_rec:  0.080724, Loss_MKnn:  4.010418, Loss_Match:  0.959035, Loss_clu:  0.163266, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 206 | 300] Loss:  3.208923, Loss_rec:  0.080975, Loss_MKnn:  3.984446, Loss_Match:  0.972494, Loss_clu:  0.163232, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 207 | 300] Loss:  3.201261, Loss_rec:  0.081210, Loss_MKnn:  3.974081, Loss_Match:  0.969419, Loss_clu:  0.163592, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 208 | 300] Loss:  3.210299, Loss_rec:  0.080586, Loss_MKnn:  3.989331, Loss_Match:  0.970650, Loss_clu:  0.164397, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 209 | 300] Loss:  3.207568, Loss_rec:  0.080993, Loss_MKnn:  3.992455, Loss_Match:  0.966165, Loss_clu:  0.164183, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 210 | 300] Loss:  3.210831, Loss_rec:  0.080234, Loss_MKnn:  4.005865, Loss_Match:  0.963175, Loss_clu:  0.164490, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 211 | 300] Loss:  3.213008, Loss_rec:  0.079419, Loss_MKnn:  4.019270, Loss_Match:  0.957878, Loss_clu:  0.166076, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 212 | 300] Loss:  3.213968, Loss_rec:  0.079265, Loss_MKnn:  4.020705, Loss_Match:  0.957951, Loss_clu:  0.166399, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 213 | 300] Loss:  3.208158, Loss_rec:  0.080269, Loss_MKnn:  3.988404, Loss_Match:  0.969160, Loss_clu:  0.164528, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 214 | 300] Loss:  3.205020, Loss_rec:  0.080074, Loss_MKnn:  3.992313, Loss_Match:  0.962524, Loss_clu:  0.166265, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 215 | 300] Loss:  3.199959, Loss_rec:  0.080849, Loss_MKnn:  3.972496, Loss_Match:  0.968010, Loss_clu:  0.164851, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 216 | 300] Loss:  3.203034, Loss_rec:  0.080899, Loss_MKnn:  3.991817, Loss_Match:  0.958881, Loss_clu:  0.167344, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 217 | 300] Loss:  3.213922, Loss_rec:  0.080088, Loss_MKnn:  4.015108, Loss_Match:  0.960010, Loss_clu:  0.166270, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 218 | 300] Loss:  3.196992, Loss_rec:  0.080739, Loss_MKnn:  3.995175, Loss_Match:  0.952633, Loss_clu:  0.166032, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 219 | 300] Loss:  3.210018, Loss_rec:  0.080591, Loss_MKnn:  3.997406, Loss_Match:  0.962673, Loss_clu:  0.168051, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 220 | 300] Loss:  3.207718, Loss_rec:  0.080313, Loss_MKnn:  3.993564, Loss_Match:  0.963314, Loss_clu:  0.167309, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 221 | 300] Loss:  3.205683, Loss_rec:  0.080547, Loss_MKnn:  3.971416, Loss_Match:  0.972727, Loss_clu:  0.166700, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 222 | 300] Loss:  3.201928, Loss_rec:  0.080748, Loss_MKnn:  3.982755, Loss_Match:  0.962471, Loss_clu:  0.167332, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 223 | 300] Loss:  3.198858, Loss_rec:  0.081247, Loss_MKnn:  3.975247, Loss_Match:  0.961142, Loss_clu:  0.168845, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 224 | 300] Loss:  3.202952, Loss_rec:  0.080964, Loss_MKnn:  3.987958, Loss_Match:  0.960555, Loss_clu:  0.167455, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 225 | 300] Loss:  3.215825, Loss_rec:  0.079966, Loss_MKnn:  4.004173, Loss_Match:  0.964835, Loss_clu:  0.168938, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 226 | 300] Loss:  3.201112, Loss_rec:  0.080654, Loss_MKnn:  3.969805, Loss_Match:  0.966392, Loss_clu:  0.169164, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 227 | 300] Loss:  3.198220, Loss_rec:  0.080706, Loss_MKnn:  3.987482, Loss_Match:  0.954761, Loss_clu:  0.169012, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 228 | 300] Loss:  3.203456, Loss_rec:  0.080276, Loss_MKnn:  3.997714, Loss_Match:  0.955047, Loss_clu:  0.169276, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 229 | 300] Loss:  3.194096, Loss_rec:  0.080956, Loss_MKnn:  3.978689, Loss_Match:  0.955053, Loss_clu:  0.168742, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 230 | 300] Loss:  3.193949, Loss_rec:  0.080788, Loss_MKnn:  3.978041, Loss_Match:  0.956170, Loss_clu:  0.167971, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 231 | 300] Loss:  3.189582, Loss_rec:  0.080948, Loss_MKnn:  3.978028, Loss_Match:  0.949885, Loss_clu:  0.169735, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 232 | 300] Loss:  3.219521, Loss_rec:  0.080262, Loss_MKnn:  3.995078, Loss_Match:  0.971344, Loss_clu:  0.170377, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 233 | 300] Loss:  3.196336, Loss_rec:  0.080573, Loss_MKnn:  3.982614, Loss_Match:  0.953538, Loss_clu:  0.170917, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 234 | 300] Loss:  3.211193, Loss_rec:  0.079586, Loss_MKnn:  4.006363, Loss_Match:  0.957722, Loss_clu:  0.170704, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 235 | 300] Loss:  3.218720, Loss_rec:  0.080169, Loss_MKnn:  4.015414, Loss_Match:  0.960120, Loss_clu:  0.170724, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 236 | 300] Loss:  3.193758, Loss_rec:  0.080581, Loss_MKnn:  3.980428, Loss_Match:  0.953093, Loss_clu:  0.169870, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 237 | 300] Loss:  3.202789, Loss_rec:  0.080303, Loss_MKnn:  3.997537, Loss_Match:  0.954465, Loss_clu:  0.169253, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 238 | 300] Loss:  3.208566, Loss_rec:  0.079909, Loss_MKnn:  3.997640, Loss_Match:  0.958047, Loss_clu:  0.171790, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 239 | 300] Loss:  3.212730, Loss_rec:  0.079885, Loss_MKnn:  4.004711, Loss_Match:  0.958035, Loss_clu:  0.172454, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 240 | 300] Loss:  3.204524, Loss_rec:  0.080640, Loss_MKnn:  3.983272, Loss_Match:  0.961859, Loss_clu:  0.170389, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 241 | 300] Loss:  3.196896, Loss_rec:  0.080989, Loss_MKnn:  3.971293, Loss_Match:  0.960008, Loss_clu:  0.170253, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 242 | 300] Loss:  3.193959, Loss_rec:  0.080810, Loss_MKnn:  3.972912, Loss_Match:  0.955433, Loss_clu:  0.171260, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 243 | 300] Loss:  3.210009, Loss_rec:  0.079651, Loss_MKnn:  4.011312, Loss_Match:  0.953867, Loss_clu:  0.170835, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 244 | 300] Loss:  3.199239, Loss_rec:  0.080434, Loss_MKnn:  3.985223, Loss_Match:  0.954503, Loss_clu:  0.171692, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 245 | 300] Loss:  3.196288, Loss_rec:  0.081234, Loss_MKnn:  3.985397, Loss_Match:  0.949663, Loss_clu:  0.172692, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 246 | 300] Loss:  3.196386, Loss_rec:  0.081244, Loss_MKnn:  3.969791, Loss_Match:  0.959483, Loss_clu:  0.170764, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 247 | 300] Loss:  3.215559, Loss_rec:  0.079360, Loss_MKnn:  4.029331, Loss_Match:  0.948260, Loss_clu:  0.173275, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 248 | 300] Loss:  3.195071, Loss_rec:  0.080641, Loss_MKnn:  3.984583, Loss_Match:  0.950623, Loss_clu:  0.171515, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 249 | 300] Loss:  3.202867, Loss_rec:  0.079781, Loss_MKnn:  3.998530, Loss_Match:  0.951766, Loss_clu:  0.172056, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 250 | 300] Loss:  3.206910, Loss_rec:  0.080140, Loss_MKnn:  3.981827, Loss_Match:  0.963818, Loss_clu:  0.172039, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 251 | 300] Loss:  3.202141, Loss_rec:  0.080361, Loss_MKnn:  3.984437, Loss_Match:  0.956672, Loss_clu:  0.172890, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 252 | 300] Loss:  3.211329, Loss_rec:  0.079905, Loss_MKnn:  4.015626, Loss_Match:  0.950531, Loss_clu:  0.173080, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 253 | 300] Loss:  3.188101, Loss_rec:  0.081247, Loss_MKnn:  3.952671, Loss_Match:  0.957516, Loss_clu:  0.173002, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 254 | 300] Loss:  3.209217, Loss_rec:  0.080112, Loss_MKnn:  3.990512, Loss_Match:  0.961989, Loss_clu:  0.171859, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 255 | 300] Loss:  3.197975, Loss_rec:  0.080337, Loss_MKnn:  3.974689, Loss_Match:  0.958397, Loss_clu:  0.171896, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 256 | 300] Loss:  3.195661, Loss_rec:  0.080640, Loss_MKnn:  3.979705, Loss_Match:  0.953318, Loss_clu:  0.171850, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 257 | 300] Loss:  3.209138, Loss_rec:  0.079981, Loss_MKnn:  4.005651, Loss_Match:  0.952534, Loss_clu:  0.173798, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 258 | 300] Loss:  3.194633, Loss_rec:  0.080866, Loss_MKnn:  3.979864, Loss_Match:  0.949933, Loss_clu:  0.173901, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 259 | 300] Loss:  3.202797, Loss_rec:  0.080277, Loss_MKnn:  4.004711, Loss_Match:  0.946373, Loss_clu:  0.173791, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 260 | 300] Loss:  3.190953, Loss_rec:  0.080741, Loss_MKnn:  3.957772, Loss_Match:  0.958050, Loss_clu:  0.173276, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 261 | 300] Loss:  3.202482, Loss_rec:  0.080215, Loss_MKnn:  3.992362, Loss_Match:  0.953123, Loss_clu:  0.172964, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 262 | 300] Loss:  3.206202, Loss_rec:  0.080055, Loss_MKnn:  3.988398, Loss_Match:  0.958386, Loss_clu:  0.173562, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 263 | 300] Loss:  3.192106, Loss_rec:  0.080988, Loss_MKnn:  3.965916, Loss_Match:  0.954013, Loss_clu:  0.174148, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 264 | 300] Loss:  3.203390, Loss_rec:  0.080049, Loss_MKnn:  3.984202, Loss_Match:  0.958054, Loss_clu:  0.173186, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 265 | 300] Loss:  3.208695, Loss_rec:  0.079995, Loss_MKnn:  4.005723, Loss_Match:  0.951294, Loss_clu:  0.174546, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 266 | 300] Loss:  3.194331, Loss_rec:  0.080756, Loss_MKnn:  3.976191, Loss_Match:  0.951853, Loss_clu:  0.173627, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 267 | 300] Loss:  3.201162, Loss_rec:  0.080166, Loss_MKnn:  3.996185, Loss_Match:  0.948594, Loss_clu:  0.174309, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 268 | 300] Loss:  3.203991, Loss_rec:  0.080186, Loss_MKnn:  3.993234, Loss_Match:  0.953509, Loss_clu:  0.173679, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 269 | 300] Loss:  3.195370, Loss_rec:  0.081094, Loss_MKnn:  3.979717, Loss_Match:  0.950037, Loss_clu:  0.174381, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 270 | 300] Loss:  3.203132, Loss_rec:  0.080535, Loss_MKnn:  3.991158, Loss_Match:  0.951951, Loss_clu:  0.175067, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 271 | 300] Loss:  3.202178, Loss_rec:  0.080291, Loss_MKnn:  3.980995, Loss_Match:  0.958244, Loss_clu:  0.173146, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 272 | 300] Loss:  3.203109, Loss_rec:  0.080615, Loss_MKnn:  3.993569, Loss_Match:  0.951473, Loss_clu:  0.174236, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 273 | 300] Loss:  3.208761, Loss_rec:  0.079987, Loss_MKnn:  3.989145, Loss_Match:  0.959203, Loss_clu:  0.174999, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 274 | 300] Loss:  3.206700, Loss_rec:  0.079946, Loss_MKnn:  3.985961, Loss_Match:  0.959803, Loss_clu:  0.173970, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 275 | 300] Loss:  3.189853, Loss_rec:  0.080637, Loss_MKnn:  3.971595, Loss_Match:  0.950133, Loss_clu:  0.173285, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 276 | 300] Loss:  3.194121, Loss_rec:  0.082093, Loss_MKnn:  3.946552, Loss_Match:  0.964436, Loss_clu:  0.174317, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 277 | 300] Loss:  3.205814, Loss_rec:  0.079707, Loss_MKnn:  3.992341, Loss_Match:  0.955337, Loss_clu:  0.174599, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 278 | 300] Loss:  3.212724, Loss_rec:  0.079115, Loss_MKnn:  4.017673, Loss_Match:  0.950475, Loss_clu:  0.174297, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 279 | 300] Loss:  3.210693, Loss_rec:  0.079496, Loss_MKnn:  4.006626, Loss_Match:  0.953430, Loss_clu:  0.174454, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 280 | 300] Loss:  3.204230, Loss_rec:  0.080672, Loss_MKnn:  3.978776, Loss_Match:  0.959113, Loss_clu:  0.175057, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 281 | 300] Loss:  3.189110, Loss_rec:  0.081070, Loss_MKnn:  3.972398, Loss_Match:  0.947535, Loss_clu:  0.174306, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 282 | 300] Loss:  3.197900, Loss_rec:  0.080984, Loss_MKnn:  3.962166, Loss_Match:  0.962065, Loss_clu:  0.173767, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 283 | 300] Loss:  3.203397, Loss_rec:  0.080521, Loss_MKnn:  3.996438, Loss_Match:  0.949251, Loss_clu:  0.175406, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 284 | 300] Loss:  3.208161, Loss_rec:  0.080055, Loss_MKnn:  3.997627, Loss_Match:  0.954530, Loss_clu:  0.174762, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 285 | 300] Loss:  3.205927, Loss_rec:  0.080726, Loss_MKnn:  3.973949, Loss_Match:  0.963301, Loss_clu:  0.174924, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 286 | 300] Loss:  3.203639, Loss_rec:  0.080359, Loss_MKnn:  3.978703, Loss_Match:  0.960043, Loss_clu:  0.173886, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 287 | 300] Loss:  3.200748, Loss_rec:  0.080253, Loss_MKnn:  3.983339, Loss_Match:  0.953188, Loss_clu:  0.175637, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 288 | 300] Loss:  3.198216, Loss_rec:  0.080567, Loss_MKnn:  3.988645, Loss_Match:  0.949344, Loss_clu:  0.173983, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 289 | 300] Loss:  3.201999, Loss_rec:  0.080157, Loss_MKnn:  3.989295, Loss_Match:  0.952419, Loss_clu:  0.174775, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 290 | 300] Loss:  3.201777, Loss_rec:  0.080366, Loss_MKnn:  3.984838, Loss_Match:  0.954864, Loss_clu:  0.174129, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 291 | 300] Loss:  3.208746, Loss_rec:  0.079311, Loss_MKnn:  4.003335, Loss_Match:  0.953034, Loss_clu:  0.174734, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 292 | 300] Loss:  3.206675, Loss_rec:  0.079922, Loss_MKnn:  3.991893, Loss_Match:  0.956181, Loss_clu:  0.174626, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 293 | 300] Loss:  3.198357, Loss_rec:  0.080483, Loss_MKnn:  3.973667, Loss_Match:  0.957826, Loss_clu:  0.173214, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 294 | 300] Loss:  3.202861, Loss_rec:  0.081156, Loss_MKnn:  3.990695, Loss_Match:  0.951547, Loss_clu:  0.174811, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 295 | 300] Loss:  3.204001, Loss_rec:  0.081065, Loss_MKnn:  3.980861, Loss_Match:  0.958557, Loss_clu:  0.173949, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 296 | 300] Loss:  3.191508, Loss_rec:  0.081102, Loss_MKnn:  3.978262, Loss_Match:  0.946380, Loss_clu:  0.174895, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 297 | 300] Loss:  3.217839, Loss_rec:  0.079765, Loss_MKnn:  4.012976, Loss_Match:  0.956359, Loss_clu:  0.175227, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 298 | 300] Loss:  3.196295, Loss_rec:  0.080377, Loss_MKnn:  3.980145, Loss_Match:  0.950937, Loss_clu:  0.174909, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 299 | 300] Loss:  3.207783, Loss_rec:  0.079989, Loss_MKnn:  3.999858, Loss_Match:  0.953217, Loss_clu:  0.174648, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+[Epoch 300 | 300] Loss:  3.209408, Loss_rec:  0.079902, Loss_MKnn:  3.996295, Loss_Match:  0.956075, Loss_clu:  0.175283, w_mknn: 0.5000, w_match: 1.0000, w_clu: 1.0000
+Final Test -> acc: 0.5671, ari: 0.3650, nmi: 0.4380, pur: 0.5671

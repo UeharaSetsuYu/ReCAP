@@ -43,7 +43,7 @@ def parse_args():
     # Dataset Noisy Setting
     parser.add_argument('--noise_type', type=str, default='gaussian',
                         choices=['gaussian', 'uniform', 'salt_pepper', 'dropout'])
-    parser.add_argument('--noise_std', type=float, default=0.4) # GAUSSIAN STD IS  0.4
+    parser.add_argument('--noise_std', type=float, default=0.1)
     parser.add_argument('--salt_pepper_ratio', type=float, default=0.1)
     parser.add_argument('--min_noisy_views', type=int, default=1)
     parser.add_argument('--max_noisy_views', type=int, default=1)
@@ -75,6 +75,7 @@ def dataset_config(args):
             pre_train_epoch = 100,
             warming_up=100,
             mknn_topk=3,  # mknn config. true_K = 2 * mknn_topk
+            prototype_walk_steps=2, # IN = 0, else 2
         )
 
 if __name__ == '__main__':
